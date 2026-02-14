@@ -1,0 +1,20 @@
+# Core dependencies
+numpy>=1.24.0
+scipy>=1.10.0
+paho-mqtt>=1.6.1
+requests>=2.31.0
+
+# ADC libraries
+adafruit-circuitpython-ads1x15>=2.2.0
+spidev>=3.6
+
+# Database
+# SQLite is built into Python
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+hypothesis>=6.82.0
+
+# Utilities
+python-dotenv>=1.0.0

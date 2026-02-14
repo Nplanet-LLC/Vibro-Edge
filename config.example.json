@@ -1,0 +1,27 @@
+{
+  "mqtt": {
+    "broker": "localhost",
+    "port": 1883,
+    "use_tls": false,
+    "username": "",
+    "password": ""
+  },
+  "adc": {
+    "model": "ADS1256",
+    "sample_rate": 1000,
+    "channels": [0, 1, 2, 3],
+    "buffer_size": 1000
+  },
+  "backend_url": "http://localhost:3000",
+  "offline_buffer": {
+    "db_path": "/var/lib/turbine-monitor/buffer.db",
+    "max_size_mb": 100,
+    "cleanup_days": 7
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "/var/log/turbine-monitor/app.log",
+    "max_bytes": 10485760,
+    "backup_count": 5
+  }
+}
